@@ -24,6 +24,10 @@ module.exports = {
         loader: 'babel-loader'
       },
       {
+        test: /\.csv$/,
+        loader: 'dsv-loader?delimiter=;'
+      },
+      {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract({fallback: "style-loader", use: "css-loader"})
       },
