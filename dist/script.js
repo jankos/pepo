@@ -787,7 +787,7 @@ module.exports = ExecutionEnvironment;
 
 
 
-var _prodInvariant = __webpack_require__(17);
+var _prodInvariant = __webpack_require__(18);
 
 var ReactCurrentOwner = __webpack_require__(10);
 
@@ -1285,7 +1285,7 @@ var _prodInvariant = __webpack_require__(3),
 var CallbackQueue = __webpack_require__(61);
 var PooledClass = __webpack_require__(15);
 var ReactFeatureFlags = __webpack_require__(62);
-var ReactReconciler = __webpack_require__(18);
+var ReactReconciler = __webpack_require__(19);
 var Transaction = __webpack_require__(28);
 
 var invariant = __webpack_require__(1);
@@ -2476,6 +2476,16 @@ module.exports = PooledClass;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+module.exports = __webpack_require__(17);
+
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -2610,7 +2620,7 @@ module.exports = React;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2654,7 +2664,7 @@ function reactProdInvariant(code) {
 module.exports = reactProdInvariant;
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2826,7 +2836,7 @@ module.exports = ReactReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2947,16 +2957,6 @@ DOMLazyTree.queueHTML = queueHTML;
 DOMLazyTree.queueText = queueText;
 
 module.exports = DOMLazyTree;
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = __webpack_require__(16);
-
 
 /***/ }),
 /* 21 */
@@ -5235,7 +5235,7 @@ module.exports = getEventModifierState;
 
 
 
-var DOMLazyTree = __webpack_require__(19);
+var DOMLazyTree = __webpack_require__(20);
 var Danger = __webpack_require__(120);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(8);
@@ -5534,7 +5534,7 @@ var _prodInvariant = __webpack_require__(3);
 var ReactPropTypesSecret = __webpack_require__(70);
 var propTypesFactory = __webpack_require__(55);
 
-var React = __webpack_require__(16);
+var React = __webpack_require__(17);
 var PropTypes = propTypesFactory(React.isValidElement);
 
 var invariant = __webpack_require__(1);
@@ -6579,7 +6579,7 @@ module.exports = getEventCharCode;
 
 
 
-var _prodInvariant = __webpack_require__(17),
+var _prodInvariant = __webpack_require__(18),
     _assign = __webpack_require__(4);
 
 var ReactNoopUpdateQueue = __webpack_require__(51);
@@ -8592,7 +8592,7 @@ module.exports = instantiateReactComponent;
 
 var _prodInvariant = __webpack_require__(3);
 
-var React = __webpack_require__(16);
+var React = __webpack_require__(17);
 
 var invariant = __webpack_require__(1);
 
@@ -9183,9 +9183,9 @@ module.exports = getActiveElement;
 
 var _prodInvariant = __webpack_require__(3);
 
-var DOMLazyTree = __webpack_require__(19);
+var DOMLazyTree = __webpack_require__(20);
 var DOMProperty = __webpack_require__(13);
-var React = __webpack_require__(16);
+var React = __webpack_require__(17);
 var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactCurrentOwner = __webpack_require__(10);
 var ReactDOMComponentTree = __webpack_require__(5);
@@ -9195,7 +9195,7 @@ var ReactFeatureFlags = __webpack_require__(62);
 var ReactInstanceMap = __webpack_require__(24);
 var ReactInstrumentation = __webpack_require__(8);
 var ReactMarkupChecksum = __webpack_require__(178);
-var ReactReconciler = __webpack_require__(18);
+var ReactReconciler = __webpack_require__(19);
 var ReactUpdateQueue = __webpack_require__(47);
 var ReactUpdates = __webpack_require__(11);
 
@@ -9754,7 +9754,7 @@ __webpack_require__(83);
 
 __webpack_require__(84);
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(16);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9768,7 +9768,7 @@ var _Pepo2 = _interopRequireDefault(_Pepo);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(Pepo, null), document.getElementById('pepo'));
+_reactDom2.default.render(_react2.default.createElement(_Pepo2.default, null), document.getElementById('pepo'));
 
 /***/ }),
 /* 83 */
@@ -9996,7 +9996,7 @@ module.exports = ReactChildren;
 
 
 
-var _prodInvariant = __webpack_require__(17);
+var _prodInvariant = __webpack_require__(18);
 
 var invariant = __webpack_require__(1);
 
@@ -10113,7 +10113,7 @@ module.exports = PooledClass;
 
 
 
-var _prodInvariant = __webpack_require__(17);
+var _prodInvariant = __webpack_require__(18);
 
 var ReactCurrentOwner = __webpack_require__(10);
 var REACT_ELEMENT_TYPE = __webpack_require__(52);
@@ -10534,7 +10534,7 @@ module.exports = ReactDOMFactories;
 
 
 
-var _prodInvariant = __webpack_require__(17);
+var _prodInvariant = __webpack_require__(18);
 
 var ReactPropTypeLocationNames = __webpack_require__(91);
 var ReactPropTypesSecret = __webpack_require__(92);
@@ -12219,7 +12219,7 @@ module.exports = factory;
  */
 
 
-var _prodInvariant = __webpack_require__(17);
+var _prodInvariant = __webpack_require__(18);
 
 var ReactElement = __webpack_require__(14);
 
@@ -12279,7 +12279,7 @@ module.exports = __webpack_require__(101);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDefaultInjection = __webpack_require__(102);
 var ReactMount = __webpack_require__(80);
-var ReactReconciler = __webpack_require__(18);
+var ReactReconciler = __webpack_require__(19);
 var ReactUpdates = __webpack_require__(11);
 var ReactVersion = __webpack_require__(180);
 
@@ -14569,7 +14569,7 @@ module.exports = ReactComponentBrowserEnvironment;
 
 var _prodInvariant = __webpack_require__(3);
 
-var DOMLazyTree = __webpack_require__(19);
+var DOMLazyTree = __webpack_require__(20);
 var ExecutionEnvironment = __webpack_require__(6);
 
 var createNodesFromMarkup = __webpack_require__(121);
@@ -14988,7 +14988,7 @@ var _prodInvariant = __webpack_require__(3),
 
 var AutoFocusUtils = __webpack_require__(126);
 var CSSPropertyOperations = __webpack_require__(127);
-var DOMLazyTree = __webpack_require__(19);
+var DOMLazyTree = __webpack_require__(20);
 var DOMNamespaces = __webpack_require__(40);
 var DOMProperty = __webpack_require__(13);
 var DOMPropertyOperations = __webpack_require__(69);
@@ -17000,7 +17000,7 @@ module.exports = ReactDOMInput;
 
 var _assign = __webpack_require__(4);
 
-var React = __webpack_require__(16);
+var React = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDOMSelect = __webpack_require__(71);
 
@@ -17299,7 +17299,7 @@ var ReactInstanceMap = __webpack_require__(24);
 var ReactInstrumentation = __webpack_require__(8);
 
 var ReactCurrentOwner = __webpack_require__(10);
-var ReactReconciler = __webpack_require__(18);
+var ReactReconciler = __webpack_require__(19);
 var ReactChildReconciler = __webpack_require__(141);
 
 var emptyFunction = __webpack_require__(9);
@@ -17744,7 +17744,7 @@ module.exports = ReactMultiChild;
 
 
 
-var ReactReconciler = __webpack_require__(18);
+var ReactReconciler = __webpack_require__(19);
 
 var instantiateReactComponent = __webpack_require__(72);
 var KeyEscapeUtils = __webpack_require__(46);
@@ -17906,14 +17906,14 @@ module.exports = ReactChildReconciler;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var React = __webpack_require__(16);
+var React = __webpack_require__(17);
 var ReactComponentEnvironment = __webpack_require__(43);
 var ReactCurrentOwner = __webpack_require__(10);
 var ReactErrorUtils = __webpack_require__(35);
 var ReactInstanceMap = __webpack_require__(24);
 var ReactInstrumentation = __webpack_require__(8);
 var ReactNodeTypes = __webpack_require__(73);
-var ReactReconciler = __webpack_require__(18);
+var ReactReconciler = __webpack_require__(19);
 
 if (process.env.NODE_ENV !== 'production') {
   var checkReactTypeSpec = __webpack_require__(143);
@@ -19355,7 +19355,7 @@ module.exports = ReactServerUpdateQueue;
 
 var _assign = __webpack_require__(4);
 
-var DOMLazyTree = __webpack_require__(19);
+var DOMLazyTree = __webpack_require__(20);
 var ReactDOMComponentTree = __webpack_require__(5);
 
 var ReactDOMEmptyComponent = function (instantiate) {
@@ -19564,7 +19564,7 @@ var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
 var DOMChildrenOperations = __webpack_require__(39);
-var DOMLazyTree = __webpack_require__(19);
+var DOMLazyTree = __webpack_require__(20);
 var ReactDOMComponentTree = __webpack_require__(5);
 
 var escapeTextContentForBrowser = __webpack_require__(31);
@@ -22421,7 +22421,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(16);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22449,7 +22449,11 @@ var Pepo = function (_React$Component) {
   _createClass(Pepo, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(_Main2.default, null);
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Main2.default, { data: this.props.data })
+      );
     }
   }]);
 
@@ -22471,13 +22475,21 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(16);
 
 var _react2 = _interopRequireDefault(_react);
 
 var _Header = __webpack_require__(188);
 
 var _Header2 = _interopRequireDefault(_Header);
+
+var _List = __webpack_require__(190);
+
+var _List2 = _interopRequireDefault(_List);
+
+var _sabiedriskas_tualetes_23_02_ = __webpack_require__(191);
+
+var _sabiedriskas_tualetes_23_02_2 = _interopRequireDefault(_sabiedriskas_tualetes_23_02_);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22502,7 +22514,8 @@ var Main = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { className: 'pepo-container' },
-        _react2.default.createElement(_Header2.default, null)
+        _react2.default.createElement(_Header2.default, null),
+        _react2.default.createElement(_List2.default, { data: _sabiedriskas_tualetes_23_02_2.default })
       );
     }
   }]);
@@ -22523,7 +22536,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(16);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22554,7 +22567,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(16);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22570,6 +22583,48 @@ var Logo = function Logo(props) {
 };
 
 exports.default = Logo;
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(16);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function List(props) {
+  var data = props.data;
+  var listItems = data.map(function (data, index) {
+    return _react2.default.createElement(
+      'li',
+      { key: index },
+      data['Tualetes adrese Rīgā']
+    );
+  });
+
+  return _react2.default.createElement(
+    'ul',
+    null,
+    listItems
+  );
+}
+
+exports.default = List;
+
+/***/ }),
+/* 191 */
+/***/ (function(module, exports) {
+
+var res = [{"Tualetes adrese Rīgā":"Jēkaba laukums","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Kronvalda parks (Kronvalda bulvāra pusē)","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Dailes teātra laukums (Šarlotes un Brīvības ielas stūris)","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"13. janvāra iela (pie Vaļņu ielas)","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Turgeņeva un Gogoļa ielas skvērs (pie Zinātņu akadēmijas)","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Kronvalda parks (pie Elizabetes ielas)","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Vērmanes dārzs","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Esplanādes parks (pie Kalpaka bulvāra)","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Mežaparks, Ostas prospekts","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Mežaparks, Ostas prospekts pie bērnu rotaļu laukuma","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Radio iela","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Līvu laukums","Darba Laiks":"08:00 - 00:30","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Skrindu un Abrenes ielas krustojums","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Rīga, RTU pagalmā Jaunielā b/n ","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Embūtes iela 15 (Dzegužkalns)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Ernestīnes iela 21 (Jaunatnes dārzs)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Pērnavas iela 31 (Grīziņkalns)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Maskavas iela 8 (Spīķeru kvartāls)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Meierovica bulvāris 5a","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Vecāķu pludmale (Selgas iela 21)","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Uzvaras parks","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Arkādijas parks","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Māras dīķa parks","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Ziedoņdārzs","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Grīziņkalns","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"11.novembra krastmala (krustojumā ar Poļu gāti)","Darba Laiks":"08:00 – 24:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"11.novembra krastmala (krustojumā ar Bīskapa gāti)","Darba Laiks":"08:00 – 24:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"}];res.columns = ["Tualetes adrese Rīgā","Darba Laiks","Cilvēkiem ar kustību traucējumiem","Bērnu pārtinamie galdiņi"];module.exports = res;
 
 /***/ })
 /******/ ]);

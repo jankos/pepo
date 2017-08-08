@@ -2355,6 +2355,7 @@ a {
 .pepo-header {
   background: #333;
   color: #eee;
+  text-transform: uppercase;
 }
 .pepo-logo {
   margin: 0;
