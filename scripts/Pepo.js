@@ -5,7 +5,7 @@ class Pepo extends React.Component {
   render() {
     return (
       <div>
-        <Main data={this.props.data} />
+        <Main />
       </div>
     );
   }
