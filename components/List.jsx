@@ -19,9 +19,17 @@ function List(props) {
       &nbsp;
       <em>{data['open']}</em>
       &nbsp;
-      <i className="fa fa-fw fa-wheelchair" aria-hidden="true"></i>
+      {(() => {
+        if(data['disabled']) {
+          return <i className="fa fa-fw fa-wheelchair" aria-hidden="true"></i>
+        }
+      })()}
       &nbsp;
-      <i className="fa fa-fw fa-child" aria-hidden="true"></i>
+      {(() => {
+        if(data['changing_tadisabledble']) {
+          return <i className="fa fa-fw fa-child" aria-hidden="true"></i>
+        }
+      })()}
     </li>
   );
 

@@ -22452,7 +22452,7 @@ var Pepo = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_Main2.default, { data: this.props.data })
+        _react2.default.createElement(_Main2.default, null)
       );
     }
   }]);
@@ -22603,11 +22603,44 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function List(props) {
   var data = props.data;
+  for (var a = 0; a < data.length; a++) {
+    data[a]['address'] = data[a]['Tualetes adrese Rīgā'];
+    data[a]['open'] = data[a]['Darba Laiks'];
+    data[a]['disabled'] = data[a]['Cilvēkiem ar kustību traucējumiem'] == 'jā' ? true : false;
+    data[a]['changing_table'] = data[a]['Bērnu pārtinamie galdiņi'] == 'jā' ? true : false;
+    delete data[a]['Tualetes adrese Rīgā'];
+    delete data[a]['Darba Laiks'];
+    delete data[a]['Cilvēkiem ar kustību traucējumiem'];
+    delete data[a]['Bērnu pārtinamie galdiņi'];
+  }
+  console.log(data);
   var listItems = data.map(function (data, index) {
     return _react2.default.createElement(
       'li',
       { key: index },
-      data['Tualetes adrese Rīgā']
+      _react2.default.createElement(
+        'strong',
+        null,
+        data['address']
+      ),
+      '\xA0',
+      _react2.default.createElement(
+        'em',
+        null,
+        data['open']
+      ),
+      '\xA0',
+      function () {
+        if (data['disabled']) {
+          return _react2.default.createElement('i', { className: 'fa fa-fw fa-wheelchair', 'aria-hidden': 'true' });
+        }
+      }(),
+      '\xA0',
+      function () {
+        if (data['changing_tadisabledble']) {
+          return _react2.default.createElement('i', { className: 'fa fa-fw fa-child', 'aria-hidden': 'true' });
+        }
+      }()
     );
   });
 
