@@ -22546,7 +22546,7 @@ var _Logo2 = _interopRequireDefault(_Logo);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Header = function Header(props) {
+var Header = function Header() {
   return _react2.default.createElement(
     'div',
     { className: 'pepo-header' },
@@ -22573,7 +22573,7 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Logo = function Logo(props) {
+var Logo = function Logo() {
   return _react2.default.createElement(
     "h1",
     { className: "pepo-logo" },
@@ -22613,7 +22613,6 @@ function List(props) {
     delete data[a]['Cilvēkiem ar kustību traucējumiem'];
     delete data[a]['Bērnu pārtinamie galdiņi'];
   }
-  console.log(data);
   var listItems = data.map(function (data, index) {
     return _react2.default.createElement(
       'li',

@@ -12,7 +12,6 @@ function List(props) {
     delete(data[a]['Cilvēkiem ar kustību traucējumiem']);
     delete(data[a]['Bērnu pārtinamie galdiņi']);
   }
-  console.log(data);
   const listItems = data.map((data, index) =>
     <li key={index}>
       <strong>{data['address']}</strong>
@@ -21,13 +20,13 @@ function List(props) {
       &nbsp;
       {(() => {
         if(data['disabled']) {
-          return <i className="fa fa-fw fa-wheelchair" aria-hidden="true"></i>
+          return <i className="fa fa-fw fa-wheelchair" aria-hidden="true"></i>;
         }
       })()}
       &nbsp;
       {(() => {
         if(data['changing_tadisabledble']) {
-          return <i className="fa fa-fw fa-child" aria-hidden="true"></i>
+          return <i className="fa fa-fw fa-child" aria-hidden="true"></i>;
         }
       })()}
     </li>
