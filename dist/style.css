@@ -2367,3 +2367,21 @@ a {
   padding: 0;
   font-size: 32px;
 }
+.pepo-list {
+  width: 50%;
+  float: left;
+}
+.pepo-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.pepo-list li {
+  margin: 0;
+  padding: 10px;
+}
+.pepo-map {
+  width: 50%;
+  height: 250px;
+  float: right;
+}

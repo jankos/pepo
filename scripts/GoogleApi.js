@@ -1,5 +1,5 @@
 export const GoogleApi = function(opts) {
-  opts = opts || {}
+  opts = opts || {};
 
   const apiKey = opts.apiKey;
   const libraries = opts.libraries || [];
@@ -27,16 +27,16 @@ export const GoogleApi = function(opts) {
       channel: channel,
       language: language,
       region: region
-    }
+    };
 
     let paramStr = Object.keys(params)
-        .filter(k => !!params[k])
-        .map(k => `${k}=${params[k]}`).join('&');
+      .filter(k => !!params[k])
+      .map(k => `${k}=${params[k]}`).join('&');
 
     return `${url}?${paramStr}`;
-  }
+  };
 
   return url();
-}
+};
 
-export default GoogleApi
+export default GoogleApi;

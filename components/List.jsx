@@ -33,7 +33,9 @@ function List(props) {
   );
 
   return (
-    <ul>{listItems}</ul>
+    <div className="pepo-list">
+      <ul>{listItems}</ul>
+    </div>
   );
 }
 
