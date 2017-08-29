@@ -1,10 +1,12 @@
 import React from 'react';
 import Logo from './Logo';
+import Menu from './Menu';
 
 const Header = () => (
-  <div className="pepo-header">
+  <header className="pepo-header">
     <Logo />
-  </div>
+    <Menu />
+  </header>
 );
 
 export default Header;

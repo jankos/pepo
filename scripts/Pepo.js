@@ -1,12 +1,20 @@
 import React from 'react';
-import Main from '../components/Main';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import HomePage from '../pages/HomePage';
+import ListPage from '../pages/ListPage';
+import AboutPage from '../pages/AboutPage';
 
 class Pepo extends React.Component {
   render() {
     return (
-      <div>
-        <Main />
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/list" component={ListPage} />
+          <Route path="/about" component={AboutPage} />
+        </Switch>
+      </Router>
     );
   }
 }

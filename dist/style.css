@@ -2356,11 +2356,30 @@ a {
   background: #333;
   color: #eee;
   text-transform: uppercase;
+  height: 7vh;
 }
 .pepo-logo {
   margin: 0;
   padding: 10px;
   font-size: 24px;
+  float: left;
+}
+.pepo-menu {
+  float: right;
+  display: inline-block;
+}
+.pepo-menu ul {
+  display: inline;
+  list-style-type: none;
+}
+.pepo-menu li {
+  display: inline;
+}
+.pepo-menu a {
+  display: inline-block;
+  margin: 15px 10px;
+  color: #fff;
+  text-decoration: none;
 }
 .pepo-title {
   margin: 0;
@@ -2368,8 +2387,8 @@ a {
   font-size: 32px;
 }
 .pepo-list {
-  width: 50%;
-  float: left;
+  width: 100%;
+  height: 93vh;
 }
 .pepo-list ul {
   margin: 0;
@@ -2381,7 +2400,6 @@ a {
   padding: 10px;
 }
 .pepo-map {
-  width: 50%;
-  height: 250px;
-  float: right;
+  width: 100%;
+  height: 93vh;
 }
