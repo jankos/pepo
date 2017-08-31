@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Jēkaba laukums",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Kronvalda parks (Kronvalda bulvāra pusē)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Dailes teātra laukums (Šarlotes un Brīvības ielas stūris)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "13. janvāra iela (pie Vaļņu ielas)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "00:00 – 24:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Turgeņeva un Gogoļa ielas skvērs (pie Zinātņu akadēmijas)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Kronvalda parks (pie Elizabetes ielas)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "00:00 – 24:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Vērmanes dārzs",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "00:00 – 24:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Esplanādes parks (pie Kalpaka bulvāra)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "00:00 – 24:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Mežaparks, Ostas prospekts",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Mežaparks, Ostas prospekts pie bērnu rotaļu laukuma",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Radio iela",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Līvu laukums",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 00:30",
+    "disabled": true,
+    "changing_table": false
+  },
+  {
+    "name": "Skrindu un Abrenes ielas krustojums",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "07:00 – 22:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Rīga, RTU pagalmā Jaunielā b/n",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "00:00 – 24:00",
+    "disabled": true,
+    "changing_table": false
+  },
+  {
+    "name": "Embūtes iela 15 (Dzegužkalns)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 21:00",
+    "disabled": false,
+    "changing_table": false
+  },
+  {
+    "name": "Ernestīnes iela 21 (Jaunatnes dārzs)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 21:00",
+    "disabled": false,
+    "changing_table": false
+  },
+  {
+    "name": "Pērnavas iela 31 (Grīziņkalns)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 21:00",
+    "disabled": false,
+    "changing_table": false
+  },
+  {
+    "name": "Maskavas iela 8 (Spīķeru kvartāls)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 21:00",
+    "disabled": true,
+    "changing_table": false
+  },
+  {
+    "name": "Meierovica bulvāris 5a",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 21:00",
+    "disabled": true,
+    "changing_table": false
+  },
+  {
+    "name": "Vecāķu pludmale (Selgas iela 21)",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "1.maijs–1.oktobris",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Uzvaras parks",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "1.maijs–1.oktobris",
+    "disabled": false,
+    "changing_table": false
+  },
+  {
+    "name": "Arkādijas parks",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "1.maijs–1.oktobris",
+    "disabled": false,
+    "changing_table": false
+  },
+  {
+    "name": "Māras dīķa parks",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "1.maijs–1.oktobris",
+    "disabled": false,
+    "changing_table": false
+  },
+  {
+    "name": "Ziedoņdārzs",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 21:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "Grīziņkalns",
+    "lat": 56.947544,
+    "lng":  24.106657,
+    "open": "08:00 – 21:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "11.novembra krastmala (krustojumā ar Poļu gāti)",
+    "lat": 56.949829,
+    "lng": 24.100781,
+    "open": "08:00 – 24:00",
+    "disabled": true,
+    "changing_table": true
+  },
+  {
+    "name": "11.novembra krastmala (krustojumā ar Bīskapa gāti)",
+    "lat": 56.948440,
+    "lng": 24.102352,
+    "open": "08:00 – 24:00",
+    "disabled": true,
+    "changing_table": true
+  }
+]

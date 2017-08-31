@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { apikey } from '../gmak.json';
+import { apikey } from '../config.json';
 
 const DEFAULT_POSITION = {
-  lat: 56.9715833,
-  lng: 23.9890794
+  lat: 56.947544,
+  lng: 24.106657
 };
 
 class Gmap extends React.Component {
@@ -13,7 +13,7 @@ class Gmap extends React.Component {
   }
 
   componentDidMount() {
-    window.initMap = this.initMap;
+    window.initMap = this.initMap.bind(this);
     loadJS(`https://maps.googleapis.com/maps/api/js?key=${apikey}&callback=initMap`);
   }
 
@@ -23,6 +23,15 @@ class Gmap extends React.Component {
       center: DEFAULT_POSITION,
       zoom: 13
     });
+
+    for( let i = 0; i < this.props.data.length; i++ ) {
+      var position = new google.maps.LatLng(this.props.data[i]['lat'], this.props.data[i]['lng']);
+      window.marker = new google.maps.Marker({
+        position: position,
+        map: window.map,
+        title: this.props.data[i]['name']
+      });
+    }
   }
 
   render() {

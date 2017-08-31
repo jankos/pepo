@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Gmap from '../components/Gmap.jsx';
 
-import data from '../data/sabiedriskas_tualetes_23_02_16.csv';
+import data from '../data/toilets.json';
 
 class HomePage extends React.Component {
   render() {
