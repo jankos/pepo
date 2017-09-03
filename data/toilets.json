@@ -1,56 +1,56 @@
 [
   {
     "name": "Jēkaba laukums",
-    "lat": 56.947544,
-    "lng":  24.106657,
+    "lat": 56.952322,
+    "lng":  24.103713,
     "open": "07:00 – 22:00",
     "disabled": true,
     "changing_table": true
   },
   {
     "name": "Kronvalda parks (Kronvalda bulvāra pusē)",
-    "lat": 56.947544,
-    "lng":  24.106657,
+    "lat": 56.957970,
+    "lng": 24.101087,
     "open": "07:00 – 22:00",
     "disabled": true,
     "changing_table": true
   },
   {
     "name": "Dailes teātra laukums (Šarlotes un Brīvības ielas stūris)",
-    "lat": 56.947544,
-    "lng":  24.106657,
+    "lat": 56.960059,
+    "lng": 24.128444,
     "open": "07:00 – 22:00",
     "disabled": true,
     "changing_table": true
   },
   {
     "name": "13. janvāra iela (pie Vaļņu ielas)",
-    "lat": 56.947544,
-    "lng":  24.106657,
+    "lat": 56.945530,
+    "lng":  24.112943,
     "open": "00:00 – 24:00",
     "disabled": true,
     "changing_table": true
   },
   {
     "name": "Turgeņeva un Gogoļa ielas skvērs (pie Zinātņu akadēmijas)",
-    "lat": 56.947544,
-    "lng":  24.106657,
+    "lat": 56.943350,
+    "lng":  24.120191,
     "open": "07:00 – 22:00",
     "disabled": true,
     "changing_table": true
   },
   {
     "name": "Kronvalda parks (pie Elizabetes ielas)",
-    "lat": 56.947544,
-    "lng":  24.106657,
+    "lat": 56.958562,
+    "lng":  24.104706,
     "open": "00:00 – 24:00",
     "disabled": true,
     "changing_table": true
   },
   {
     "name": "Vērmanes dārzs",
-    "lat": 56.947544,
-    "lng":  24.106657,
+    "lat": 56.952598,
+    "lng":  24.117274,
     "open": "00:00 – 24:00",
     "disabled": true,
     "changing_table": true

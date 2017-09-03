@@ -11322,7 +11322,7 @@ Link.contextTypes = {
 /* 98 */
 /***/ (function(module, exports) {
 
-var res = [{"Tualetes adrese Rīgā":"Jēkaba laukums","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Kronvalda parks (Kronvalda bulvāra pusē)","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Dailes teātra laukums (Šarlotes un Brīvības ielas stūris)","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"13. janvāra iela (pie Vaļņu ielas)","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Turgeņeva un Gogoļa ielas skvērs (pie Zinātņu akadēmijas)","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Kronvalda parks (pie Elizabetes ielas)","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Vērmanes dārzs","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Esplanādes parks (pie Kalpaka bulvāra)","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Mežaparks, Ostas prospekts","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Mežaparks, Ostas prospekts pie bērnu rotaļu laukuma","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Radio iela","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Līvu laukums","Darba Laiks":"08:00 - 00:30","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Skrindu un Abrenes ielas krustojums","Darba Laiks":"07:00 – 22:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Rīga, RTU pagalmā Jaunielā b/n ","Darba Laiks":"0:24","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Embūtes iela 15 (Dzegužkalns)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Ernestīnes iela 21 (Jaunatnes dārzs)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Pērnavas iela 31 (Grīziņkalns)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Maskavas iela 8 (Spīķeru kvartāls)","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Meierovica bulvāris 5a","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Vecāķu pludmale (Selgas iela 21)","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Uzvaras parks","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Arkādijas parks","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Māras dīķa parks","Darba Laiks":"1.maijs–1.oktobris","Cilvēkiem ar kustību traucējumiem":"nē","Bērnu pārtinamie galdiņi":"nē"},{"Tualetes adrese Rīgā":"Ziedoņdārzs","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"Grīziņkalns","Darba Laiks":"08:00 - 21:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"11.novembra krastmala (krustojumā ar Poļu gāti)","Darba Laiks":"08:00 – 24:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"},{"Tualetes adrese Rīgā":"11.novembra krastmala (krustojumā ar Bīskapa gāti)","Darba Laiks":"08:00 – 24:00","Cilvēkiem ar kustību traucējumiem":"jā","Bērnu pārtinamie galdiņi":"jā"}];res.columns = ["Tualetes adrese Rīgā","Darba Laiks","Cilvēkiem ar kustību traucējumiem","Bērnu pārtinamie galdiņi"];module.exports = res;
+module.exports = [{"name":"Jēkaba laukums","lat":56.952322,"lng":24.103713,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Kronvalda parks (Kronvalda bulvāra pusē)","lat":56.95797,"lng":24.101087,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Dailes teātra laukums (Šarlotes un Brīvības ielas stūris)","lat":56.960059,"lng":24.128444,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"13. janvāra iela (pie Vaļņu ielas)","lat":56.94553,"lng":24.112943,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Turgeņeva un Gogoļa ielas skvērs (pie Zinātņu akadēmijas)","lat":56.94335,"lng":24.120191,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Kronvalda parks (pie Elizabetes ielas)","lat":56.958562,"lng":24.104706,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Vērmanes dārzs","lat":56.952598,"lng":24.117274,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Esplanādes parks (pie Kalpaka bulvāra)","lat":56.947544,"lng":24.106657,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Mežaparks, Ostas prospekts","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Mežaparks, Ostas prospekts pie bērnu rotaļu laukuma","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Radio iela","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Līvu laukums","lat":56.947544,"lng":24.106657,"open":"08:00 – 00:30","disabled":true,"changing_table":false},{"name":"Skrindu un Abrenes ielas krustojums","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Rīga, RTU pagalmā Jaunielā b/n","lat":56.947544,"lng":24.106657,"open":"00:00 – 24:00","disabled":true,"changing_table":false},{"name":"Embūtes iela 15 (Dzegužkalns)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Ernestīnes iela 21 (Jaunatnes dārzs)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Pērnavas iela 31 (Grīziņkalns)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Maskavas iela 8 (Spīķeru kvartāls)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":false},{"name":"Meierovica bulvāris 5a","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":false},{"name":"Vecāķu pludmale (Selgas iela 21)","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":true,"changing_table":true},{"name":"Uzvaras parks","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Arkādijas parks","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Māras dīķa parks","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Ziedoņdārzs","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":true},{"name":"Grīziņkalns","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":true},{"name":"11.novembra krastmala (krustojumā ar Poļu gāti)","lat":56.949829,"lng":24.100781,"open":"08:00 – 24:00","disabled":true,"changing_table":true},{"name":"11.novembra krastmala (krustojumā ar Bīskapa gāti)","lat":56.94844,"lng":24.102352,"open":"08:00 – 24:00","disabled":true,"changing_table":true}]
 
 /***/ }),
 /* 99 */
@@ -25875,9 +25875,9 @@ var _Gmap = __webpack_require__(232);
 
 var _Gmap2 = _interopRequireDefault(_Gmap);
 
-var _sabiedriskas_tualetes_23_02_ = __webpack_require__(98);
+var _toilets = __webpack_require__(98);
 
-var _sabiedriskas_tualetes_23_02_2 = _interopRequireDefault(_sabiedriskas_tualetes_23_02_);
+var _toilets2 = _interopRequireDefault(_toilets);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25906,7 +25906,7 @@ var HomePage = function (_React$Component) {
         _react2.default.createElement(
           'main',
           { className: 'pepo-content' },
-          _react2.default.createElement(_Gmap2.default, { data: _sabiedriskas_tualetes_23_02_2.default })
+          _react2.default.createElement(_Gmap2.default, { data: _toilets2.default })
         )
       );
     }
@@ -26025,7 +26025,7 @@ var _reactDom = __webpack_require__(68);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _gmak = __webpack_require__(233);
+var _config = __webpack_require__(233);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26036,8 +26036,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var DEFAULT_POSITION = {
-  lat: 56.9715833,
-  lng: 23.9890794
+  lat: 56.947544,
+  lng: 24.106657
 };
 
 var Gmap = function (_React$Component) {
@@ -26052,8 +26052,8 @@ var Gmap = function (_React$Component) {
   _createClass(Gmap, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      window.initMap = this.initMap;
-      loadJS('https://maps.googleapis.com/maps/api/js?key=' + _gmak.apikey + '&callback=initMap');
+      window.initMap = this.initMap.bind(this);
+      loadJS('https://maps.googleapis.com/maps/api/js?key=' + _config.apikey + '&callback=initMap');
     }
   }, {
     key: 'initMap',
@@ -26063,6 +26063,15 @@ var Gmap = function (_React$Component) {
         center: DEFAULT_POSITION,
         zoom: 13
       });
+
+      for (var i = 0; i < this.props.data.length; i++) {
+        var position = new google.maps.LatLng(this.props.data[i]['lat'], this.props.data[i]['lng']);
+        window.marker = new google.maps.Marker({
+          position: position,
+          map: window.map,
+          title: this.props.data[i]['name']
+        });
+      }
     }
   }, {
     key: 'render',
@@ -26121,9 +26130,9 @@ var _List = __webpack_require__(235);
 
 var _List2 = _interopRequireDefault(_List);
 
-var _sabiedriskas_tualetes_23_02_ = __webpack_require__(98);
+var _toilets = __webpack_require__(98);
 
-var _sabiedriskas_tualetes_23_02_2 = _interopRequireDefault(_sabiedriskas_tualetes_23_02_);
+var _toilets2 = _interopRequireDefault(_toilets);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26152,7 +26161,7 @@ var ListPage = function (_React$Component) {
         _react2.default.createElement(
           'main',
           { className: 'pepo-content' },
-          _react2.default.createElement(_List2.default, { data: _sabiedriskas_tualetes_23_02_2.default })
+          _react2.default.createElement(_List2.default, { data: _toilets2.default })
         )
       );
     }
@@ -26182,16 +26191,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function List(props) {
   var data = props.data;
-  for (var a = 0; a < data.length; a++) {
-    data[a]['address'] = data[a]['Tualetes adrese Rīgā'];
-    data[a]['open'] = data[a]['Darba Laiks'];
-    data[a]['disabled'] = data[a]['Cilvēkiem ar kustību traucējumiem'] == 'jā' ? true : false;
-    data[a]['changing_table'] = data[a]['Bērnu pārtinamie galdiņi'] == 'jā' ? true : false;
-    delete data[a]['Tualetes adrese Rīgā'];
-    delete data[a]['Darba Laiks'];
-    delete data[a]['Cilvēkiem ar kustību traucējumiem'];
-    delete data[a]['Bērnu pārtinamie galdiņi'];
-  }
+
   var listItems = data.map(function (data, index) {
     return _react2.default.createElement(
       'li',
@@ -26199,7 +26199,7 @@ function List(props) {
       _react2.default.createElement(
         'strong',
         null,
-        data['address']
+        data['name']
       ),
       '\xA0',
       _react2.default.createElement(
@@ -26215,7 +26215,7 @@ function List(props) {
       }(),
       '\xA0',
       function () {
-        if (data['changing_tadisabledble']) {
+        if (data['changing_table']) {
           return _react2.default.createElement('i', { className: 'fa fa-fw fa-child', 'aria-hidden': 'true' });
         }
       }()
