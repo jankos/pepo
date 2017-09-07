@@ -11322,7 +11322,7 @@ Link.contextTypes = {
 /* 98 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"Jēkaba laukums","lat":56.952322,"lng":24.103713,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Kronvalda parks (Kronvalda bulvāra pusē)","lat":56.95797,"lng":24.101087,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Dailes teātra laukums (Šarlotes un Brīvības ielas stūris)","lat":56.960059,"lng":24.128444,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"13. janvāra iela (pie Vaļņu ielas)","lat":56.94553,"lng":24.112943,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Turgeņeva un Gogoļa ielas skvērs (pie Zinātņu akadēmijas)","lat":56.94335,"lng":24.120191,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Kronvalda parks (pie Elizabetes ielas)","lat":56.958562,"lng":24.104706,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Vērmanes dārzs","lat":56.952598,"lng":24.117274,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Esplanādes parks (pie Kalpaka bulvāra)","lat":56.947544,"lng":24.106657,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Mežaparks, Ostas prospekts","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Mežaparks, Ostas prospekts pie bērnu rotaļu laukuma","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Radio iela","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Līvu laukums","lat":56.947544,"lng":24.106657,"open":"08:00 – 00:30","disabled":true,"changing_table":false},{"name":"Skrindu un Abrenes ielas krustojums","lat":56.947544,"lng":24.106657,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Rīga, RTU pagalmā Jaunielā b/n","lat":56.947544,"lng":24.106657,"open":"00:00 – 24:00","disabled":true,"changing_table":false},{"name":"Embūtes iela 15 (Dzegužkalns)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Ernestīnes iela 21 (Jaunatnes dārzs)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Pērnavas iela 31 (Grīziņkalns)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Maskavas iela 8 (Spīķeru kvartāls)","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":false},{"name":"Meierovica bulvāris 5a","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":false},{"name":"Vecāķu pludmale (Selgas iela 21)","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":true,"changing_table":true},{"name":"Uzvaras parks","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Arkādijas parks","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Māras dīķa parks","lat":56.947544,"lng":24.106657,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Ziedoņdārzs","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":true},{"name":"Grīziņkalns","lat":56.947544,"lng":24.106657,"open":"08:00 – 21:00","disabled":true,"changing_table":true},{"name":"11.novembra krastmala (krustojumā ar Poļu gāti)","lat":56.949829,"lng":24.100781,"open":"08:00 – 24:00","disabled":true,"changing_table":true},{"name":"11.novembra krastmala (krustojumā ar Bīskapa gāti)","lat":56.94844,"lng":24.102352,"open":"08:00 – 24:00","disabled":true,"changing_table":true}]
+module.exports = [{"name":"Jēkaba laukums","lat":56.952322,"lng":24.103713,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Kronvalda parks (Kronvalda bulvāra pusē)","lat":56.95797,"lng":24.101087,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Dailes teātra laukums (Šarlotes un Brīvības ielas stūris)","lat":56.960059,"lng":24.128444,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"13. janvāra iela (pie Vaļņu ielas)","lat":56.94553,"lng":24.112943,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Turgeņeva un Gogoļa ielas skvērs (pie Zinātņu akadēmijas)","lat":56.94335,"lng":24.120191,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Kronvalda parks (pie Elizabetes ielas)","lat":56.958562,"lng":24.104706,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Vērmanes dārzs","lat":56.952598,"lng":24.117274,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Esplanādes parks (pie Kalpaka bulvāra)","lat":56.954243,"lng":24.112271,"open":"00:00 – 24:00","disabled":true,"changing_table":true},{"name":"Mežaparks, Ostas prospekts","lat":57.013016,"lng":24.152935,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Mežaparks, Ostas prospekts pie bērnu rotaļu laukuma","lat":57.014505,"lng":24.149229,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Radio iela","lat":56.947328,"lng":24.116579,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Līvu laukums","lat":56.949775,"lng":24.109689,"open":"08:00 – 00:30","disabled":true,"changing_table":false},{"name":"Skrindu un Abrenes ielas krustojums","lat":56.945115,"lng":24.129891,"open":"07:00 – 22:00","disabled":true,"changing_table":true},{"name":"Rīga, RTU pagalmā Jaunielā b/n","lat":56.947725,"lng":24.104613,"open":"00:00 – 24:00","disabled":true,"changing_table":false},{"name":"Embūtes iela 15 (Dzegužkalns)","lat":56.963254,"lng":24.068491,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Ernestīnes iela 21 (Jaunatnes dārzs)","lat":56.940911,"lng":24.068913,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Pērnavas iela 31 (Grīziņkalns)","lat":56.95644,"lng":24.152954,"open":"08:00 – 21:00","disabled":false,"changing_table":false},{"name":"Maskavas iela 8 (Spīķeru kvartāls)","lat":56.942142,"lng":24.116216,"open":"08:00 – 21:00","disabled":true,"changing_table":false},{"name":"Meierovica bulvāris 5a","lat":56.952007,"lng":24.108816,"open":"08:00 – 21:00","disabled":true,"changing_table":false},{"name":"Vecāķu pludmale (Selgas iela 21)","lat":57.080647,"lng":24.104629,"open":"1.maijs–1.oktobris","disabled":true,"changing_table":true},{"name":"Uzvaras parks","lat":56.935856,"lng":24.084415,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Arkādijas parks","lat":56.932428,"lng":24.085849,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Māras dīķa parks","lat":56.928948,"lng":24.077781,"open":"1.maijs–1.oktobris","disabled":false,"changing_table":false},{"name":"Ziedoņdārzs","lat":56.956791,"lng":24.139564,"open":"08:00 – 21:00","disabled":true,"changing_table":true},{"name":"Grīziņkalns","lat":56.96092,"lng":24.14829,"open":"08:00 – 21:00","disabled":true,"changing_table":true},{"name":"11.novembra krastmala (krustojumā ar Poļu gāti)","lat":56.949829,"lng":24.100781,"open":"08:00 – 24:00","disabled":true,"changing_table":true},{"name":"11.novembra krastmala (krustojumā ar Bīskapa gāti)","lat":56.94844,"lng":24.102352,"open":"08:00 – 24:00","disabled":true,"changing_table":true}]
 
 /***/ }),
 /* 99 */
@@ -26035,11 +26035,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var DEFAULT_POSITION = {
-  lat: 56.947544,
-  lng: 24.106657
-};
-
 var Gmap = function (_React$Component) {
   _inherits(Gmap, _React$Component);
 
@@ -26059,10 +26054,9 @@ var Gmap = function (_React$Component) {
     key: 'initMap',
     value: function initMap() {
       /*global google */
-      window.map = new google.maps.Map(_reactDom2.default.findDOMNode(window.pmap), {
-        center: DEFAULT_POSITION,
-        zoom: 13
-      });
+      window.map = new google.maps.Map(_reactDom2.default.findDOMNode(window.pmap));
+
+      window.bounds = new google.maps.LatLngBounds();
 
       for (var i = 0; i < this.props.data.length; i++) {
         var position = new google.maps.LatLng(this.props.data[i]['lat'], this.props.data[i]['lng']);
@@ -26071,7 +26065,10 @@ var Gmap = function (_React$Component) {
           map: window.map,
           title: this.props.data[i]['name']
         });
+        window.bounds.extend(position);
       }
+
+      window.map.fitBounds(window.bounds);
     }
   }, {
     key: 'render',

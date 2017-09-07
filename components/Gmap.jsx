@@ -2,11 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { apikey } from '../config.json';
 
-const DEFAULT_POSITION = {
-  lat: 56.947544,
-  lng: 24.106657
-};
-
 class Gmap extends React.Component {
   constructor() {
     super();
@@ -19,10 +14,9 @@ class Gmap extends React.Component {
 
   initMap() {
     /*global google */
-    window.map = new google.maps.Map(ReactDOM.findDOMNode(window.pmap), {
-      center: DEFAULT_POSITION,
-      zoom: 13
-    });
+    window.map = new google.maps.Map(ReactDOM.findDOMNode(window.pmap));
+
+    window.bounds = new google.maps.LatLngBounds();
 
     for( let i = 0; i < this.props.data.length; i++ ) {
       var position = new google.maps.LatLng(this.props.data[i]['lat'], this.props.data[i]['lng']);
@@ -31,7 +25,10 @@ class Gmap extends React.Component {
         map: window.map,
         title: this.props.data[i]['name']
       });
+      window.bounds.extend(position);
     }
+
+    window.map.fitBounds(window.bounds);
   }
 
   render() {
