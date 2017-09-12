@@ -26048,7 +26048,12 @@ var Gmap = function (_React$Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       window.initMap = this.initMap.bind(this);
-      loadJS('https://maps.googleapis.com/maps/api/js?key=' + _config.apikey + '&callback=initMap');
+      var url = 'https://maps.googleapis.com/maps/api/js?key=' + _config.apikey + '&language=en_us&callback=initMap';
+      if (checkJS(url)) {
+        loadJS(url);
+      } else {
+        window.initMap();
+      }
     }
   }, {
     key: 'initMap',
@@ -26085,6 +26090,16 @@ var Gmap = function (_React$Component) {
 
   return Gmap;
 }(_react2.default.Component);
+
+function checkJS(src) {
+  var scripts = window.document.getElementsByTagName('script');
+  for (var a = 0; a < scripts.length; a++) {
+    if (scripts[a].src == src) {
+      return false;
+    }
+  }
+  return true;
+}
 
 function loadJS(src) {
   var ref = window.document.getElementsByTagName('script')[0];
