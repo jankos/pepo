@@ -9,7 +9,12 @@ class Gmap extends React.Component {
 
   componentDidMount() {
     window.initMap = this.initMap.bind(this);
-    loadJS(`https://maps.googleapis.com/maps/api/js?key=${apikey}&callback=initMap`);
+    const url = `https://maps.googleapis.com/maps/api/js?key=${apikey}&language=en_us&callback=initMap`;
+    if (checkJS(url)) {
+      loadJS(url);
+    } else {
+      window.initMap();
+    }
   }
 
   initMap() {
@@ -38,6 +43,16 @@ class Gmap extends React.Component {
       </div>
     );
   }
+}
+
+function checkJS(src) {
+  const scripts = window.document.getElementsByTagName('script');
+  for(let a = 0; a < scripts.length; a++) {
+    if (scripts[a].src == src) {
+      return false;
+    }
+  }
+  return true;
 }
 
 function loadJS(src) {
